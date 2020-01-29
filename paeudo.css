@@ -1,0 +1,17 @@
+p::first-letter{
+	color: red;
+	font-size: xx-large;
+}
+p::first-line{
+	color: yellow;
+	font-variant:small-caps;
+}
+p::selection{
+	background-color: green;
+}
+ul li::before{
+	content: '*';
+}
+h1::after{
+	content: "read more";
+}
